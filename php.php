@@ -6,24 +6,34 @@ $i=$_POST['i'];
 function wynik($show){
     echo 'Wynik wynosi: '.$show;
 }
-
+function dodawanie($a,$b){
+	$score=$a+$b;
+    wynik($score);
+}
+function odejmowanie($a,$b){
+	$score=$a-$b;
+    wynik($score);
+}
+function mnozenie($a,$b){
+	$score=$a*$b;
+    wynik($score);
+}
+function dzielenie($a,$b){
+	$score=$a/$b;
+    wynik($score);
+}
 switch($i){
     case "dodawanie":
-        $score=$a+$b;
-        wynik($score);
+        dodawanie($a,$b);
         break;
     case "odejmowanie":
-        $score=$a-$b;
-        wynik($score);
+        odejmowanie($a,$b);
         break;
     case "mnozenie":
-        $score=$a*$b;
-        wynik($score);
+        mnozenie($a,$b);
         break;
     case "dzielenie":
-        $score=$a/$b;
-        wynik($score);
+        dzielenie($a,$b);
         break;
 }
-
 ?> 
