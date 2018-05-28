@@ -1,3 +1,4 @@
+#formularze
 * `<?php require("NAZWA_PLIKU.php"); ?>
 * `<form action="NAZWA_PLIKU.php" method="POST/GET">
 * `<input type='text' name='XD'>
