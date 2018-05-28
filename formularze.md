@@ -4,4 +4,3 @@
 * `<input type='sumbit' name='wyslij'>
 * `</from>
 
-</pre>
