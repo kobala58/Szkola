@@ -24,15 +24,19 @@ function dzielenie($a,$b){
 }
 switch($i){
     case "dodawanie":
+	case '+':
         dodawanie($a,$b);
         break;
     case "odejmowanie":
+	case "-":
         odejmowanie($a,$b);
         break;
     case "mnozenie":
+	case "*":
         mnozenie($a,$b);
         break;
     case "dzielenie":
+	case "/":
         dzielenie($a,$b);
         break;
 }
